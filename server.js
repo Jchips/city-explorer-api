@@ -20,7 +20,7 @@ app.get('/weather', (req, res) => {
     const { lat, lon, searchQuery } = req.query;
     const cityData = cityExplorerData.find(city => city.city_name === searchQuery);
     if (cityData === undefined) {
-      res.status(404).send('Error: City not found');
+      res.status(404).send('Error: City weather not found');
     } else {
       let array = cityData.data.map(day => new Forecast(day));
       res.status(200).send(array);
