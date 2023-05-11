@@ -1,5 +1,3 @@
-# city-explorer-api
-
 # City Explorer API
 
 **Author**: Jelani R.
@@ -56,7 +54,7 @@ Uses Node.js environment, express, cors and dotenv
 
 ## Features
 
-Name of feature: Weather (placeholder)
+### Name of feature: Weather (placeholder)
 
 Estimate of time needed to complete: At least 1 hour
 
@@ -65,3 +63,13 @@ Start time: 3:11p
 Finish time: 5:45p
 
 Actual time needed to complete: Like 2 and a half hours
+
+### Name of feature: Weather (live)
+
+Estimate of time needed to complete: at least 1 hour
+
+Start time: 1:22a
+
+Finish time: _____
+
+Actual time needed to complete: _____
